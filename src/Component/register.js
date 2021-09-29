@@ -1,7 +1,6 @@
 import React from 'react';
-import { Grid,Paper, Avatar, TextField, Button, Typography,Link,FormControl } from '@material-ui/core'
+import { Grid,Paper, Avatar, TextField, Button,FormControl } from '@material-ui/core'
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
-import { ArrowLeft } from '@material-ui/icons';
 
 
 const paperStyle={padding :20,height:'60vh',width:380, margin:"20px auto"}

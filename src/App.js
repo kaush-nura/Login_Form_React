@@ -1,15 +1,8 @@
-
 import React, { Component } from 'react'
 import './App.css';
 import {
   BrowserRouter as Router,
-  Route,
-  Link,
-  Switch
 } from 'react-router-dom';
-import Login from './Component/login';
-import register from './Component/register';
-import forgetpass from './Component/forgetpass';
 /*
 function App() {
   return (
@@ -21,19 +14,41 @@ function App() {
 */
 
 class App extends Component {
+ /* constructor(props){
+    super(props);
+    this.state={apiResponse:""}
+  }
+
+  callAPI(){
+    fetch("http://localhost:3003/user")
+    .then(res=>res.text())
+    .then(res=>this.setState({apiResponse:res}));
+  }
+  
+  componentWillMount(){
+    this.callAPI();
+  }
+
+  {this.state.apiResponse}*/
+
   render() {
     return (
-       <Router>
+      <Router>
            <div className="App">
          
-            <Switch>
+           {/* <Switch>
               <Route exact path='/' component={Login}></Route>
               <Route exact path='/register' component={register}></Route>
               <Route exact path='/forgetpass' component={forgetpass}></Route>
-            </Switch>
+            </Switch> */}
+
+            <p>
+       
+        </p>  
           </div>
        </Router>
    );
   }
 }
 export default App;
+
